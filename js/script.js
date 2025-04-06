@@ -58,3 +58,12 @@ const cards = [
 ];
 
 
+// const btn = document.querySelector(".header__logo-mobile")
+// const menu = document.querySelector(".side__menu")
+
+// btn.addEventListener('click', function(){
+//     console.log("let");
+    
+
+// })
+

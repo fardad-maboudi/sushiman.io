@@ -10,12 +10,12 @@
 </head>
 <body>
   <header>
-    <nav class="header__nav">
+    <nav class="header__nav" >
       <div class="header__logo">
         <h4 data-aos="fade-down">Sushiman</h4>
         <div class="header__logo-overlay"></div>
       </div>
-      <ul class="header__menu">
+      <ul class="header__menu" data-aos="fade-down">
         <li>
           <a href="#menu">Menu</a>
         </li>
@@ -32,17 +32,39 @@
           <img src="assets/search.svg" alt="search">
         </li>
       </ul>
+
+      <ul class="sidebar__menu">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <Li>
+          <a href="#food">Food</a>
+        </Li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About Us</a>
+        </li>
+        <!-- <li>
+          <img src="assets/search.svg" alt="search">
+        </li> -->
+      </ul>
+
       <ul class="header__logo-mobile">
         <li>
           <img src="assets/menu.svg" alt="menu">
         </li>
       </ul>
+      <!-- <button class="header__logo-mobile">
+        <img src="assets/menu.svg" alt="menu">
+      </button> -->
     </nav>
   </header>
   <section class="hero">
     <div class="hero-image">
       <img src="assets/sushi-1.png" alt="sushi">
-      <h2>
+      <h2 data-aos="fade-up">
         日 <br />
         本 <br />
         食
@@ -50,7 +72,7 @@
       <div class="hero-image__overlay"></div>
     </div>
     <div class="hero-content">
-      <div class="hero-content-info">
+      <div class="hero-content-info" data-aos="fade-left">
         <h1>Feel the taste of Japanese food</h1>
           <p>Feel the taste of the most popular Japanese food from anywhere and anytime.</p>
 
@@ -62,7 +84,7 @@
             </button>
           </div>
       </div>
-      <div class="hero-content__testimonial">
+      <div class="hero-content__testimonial" data-aos="fade-up">
         <div class="hero-content__customer flex-center">
           <h4>24<span>k+</span></h4>
           <p>Happy Customers</p>
@@ -84,18 +106,18 @@
         <img src="assets/arrow-up-right.svg" alt="Learn More">
       </button>
       <div class="about-us__image-sushi2">
-        <img src="assets/sushi-2.png" alt="sushi">
+        <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right">
       </div>
     </div>
     <div class="about-us__content">
-      <p class="sushi__subtitle">About Us / 私たちに関しては</p>
-      <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
-      <p class="sushi__description">We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with our shopping and dining for our customers.</p>
+      <p class="sushi__subtitle" data-aos="fade-left">About Us / 私たちに関しては</p>
+      <h3 class="sushi__title" data-aos="fade-left">Our mission is to bring true Japanese flavours to you.</h3>
+      <p class="sushi__description" data-aos="fade-left">We will continue to provide the experience of Omotenashi, the Japanese mindset of hospitality, with our shopping and dining for our customers.</p>
     </div>
   </section>
   <section class="popular-foods" id="menu">
-    <h2 class="popular-foods__title">Popular Food / 人気</h2>
-    <div class="popular-foods__filters sushi__hide-scrollbar">
+    <h2 class="popular-foods__title" data-aos="flip-down">Popular Food / 人気</h2>
+    <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
       <button class="popular-foods__filter-btn active">All</button>
       <button class="popular-foods__filter-btn">
         <img src="assets/sushi-9.png" alt="sushi 9">
@@ -115,7 +137,7 @@
       </button>
       <button class="popular-foods__filter-btn">Others</button>
     </div>
-    <div class="popular-foods__catalogue">
+    <div class="popular-foods__catalogue" data-aos="fade-up">
       <article class="popular-foods__card">
         <img class="popular-foods__card-image" 
         src="assets/sushi-12.png" alt="sushi-12"/>
@@ -280,7 +302,7 @@
   </section>
   
 
-  <section class="subscription flex-center" id="Services">
+  <section class="subscription flex-center" id="services">
     <h2 data-aos="flip-down">
       Get Offers stright <br>
       to your inbox
@@ -318,6 +340,7 @@
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="javas.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

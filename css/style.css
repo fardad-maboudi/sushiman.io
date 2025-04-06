@@ -178,9 +178,11 @@ li {
       display: none;
     }
   
-    .header__menu-mobile {
+    .header__logo-mobile {
       display: flex;
+      
     }
+    
   }
   
   @media screen and (max-width: 550px) {
@@ -322,3 +324,12 @@ li {
     }
   }
   /* END: trending media queries */
+
+  @media screen and (max-width: 900px){
+    .footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+  }

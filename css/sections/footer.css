@@ -55,3 +55,7 @@
     height: 45%;
     object-fit: contain;
 }
+
+.footer__nav a:hover{
+    color: var(--primary-color);
+}
